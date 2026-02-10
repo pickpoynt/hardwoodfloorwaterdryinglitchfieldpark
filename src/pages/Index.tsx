@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import SootRemovalInfo from "@/components/landing/SootRemovalInfo";
+import HardwoodDryingInfo from "@/components/landing/HardwoodDryingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>soot removal Austin | Austin Soot Masters: Expert Fire Restoration</title>
-        <meta name="description" content="soot removal Austin. Professional soot cleaning, fire damage restoration, and puff-back cleanup. 24/7 expert restoration in Austin. Call (380) 266-0944 today!" />
-        <meta name="keywords" content="soot removal Austin, fire damage restoration Austin, puff back cleanup Austin, smoke damage cleaning Austin, Austin fireplace soot removal" />
-        <link rel="canonical" href="https://austin-soot-removal.com/" />
+        <title>Hardwood floor water drying Litchfield Park | Litchfield Park Hardwood Drying Experts</title>
+        <meta name="description" content="Hardwood floor water drying Litchfield Park. Professional wood floor moisture extraction, buckling repair, and water damage restoration in AZ. Call (380) 266-0944!" />
+        <meta name="keywords" content="Hardwood floor water drying Litchfield Park, wood floor water damage restoration AZ, Litchfield Park hardwood moisture extraction, flooded hardwood repair Litchfield Park" />
+        <link rel="canonical" href="https://litchfieldpark-hardwood-drying.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Austin Soot Masters",
-            "image": "https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&q=80",
+            "name": "Litchfield Park Hardwood Drying Experts",
+            "image": "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&q=80",
             "telephone": "+1-380-266-0944",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Austin",
-              "addressRegion": "TX",
-              "postalCode": "78701",
+              "addressLocality": "Litchfield Park",
+              "addressRegion": "AZ",
+              "postalCode": "85340",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "30.2672",
-              "longitude": "-97.7431"
+              "latitude": "33.4925",
+              "longitude": "-112.3557"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Austin, Texas"
+              "name": "Litchfield Park, Arizona"
             },
             "priceRange": "$$$",
-            "description": "Professional soot removal and fire damage restoration services in Austin, TX. We specialize in scientific soot extraction from walls, ceilings, and ductwork."
+            "description": "Professional hardwood floor water drying and restoration services in Litchfield Park, AZ. We specialize in subfloor moisture extraction and preventing floor buckling."
           })}
         </script>
 
@@ -55,46 +55,46 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Soot Removal Services",
+            "serviceType": "Hardwood Floor Water Drying Services",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Austin Soot Masters",
+              "name": "Litchfield Park Hardwood Drying Experts",
               "telephone": "+1-380-266-0944"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Austin, Texas"
+              "name": "Litchfield Park, Arizona"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Soot Removal Services",
+              "name": "Hardwood Drying Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Dry Chemical Sponge Extraction"
+                    "name": "Sub-Floor Moisture Extraction"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Furnace Puff Back Cleanup"
+                    "name": "Structural Wood Drying"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Smoke Odor Neutralization"
+                    "name": "Baseboard Water Removal"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "HEPA Air Scrubbing"
+                    "name": "Anti-Microbial Floor Sanitization"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="soot removal Austin | Austin Soot Masters" />
-        <meta property="og:description" content="Professional soot removal in Austin, TX. 24/7 scientific cleaning and fire damage restoration. Call (380) 266-0944 for a free estimate." />
+        <meta property="og:title" content="Hardwood floor water drying Litchfield Park | Floor Drying Experts" />
+        <meta property="og:description" content="Professional hardwood floor water drying in Litchfield Park, AZ. 24/7 moisture extraction and buckling repair. Call (380) 266-0944 for immediate service." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://austin-soot-removal.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://litchfieldpark-hardwood-drying.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -115,16 +115,16 @@ const Index = () => {
         <Hero
           title={
             <>
-              soot removal Austin
-              <span className="block text-amber-500 mt-2">Austin Soot Masters: Restore Your Space</span>
+              Hardwood floor water drying Litchfield Park
+              <span className="block text-blue-500 mt-2">Litchfield Park Hardwood Drying Experts: Save Your Floors</span>
             </>
           }
-          subtitle="Don't let soot settle into your Texas home. Our specialized dry extraction and HEPA filtration systems target microscopic soot particles, restoring walls and ceilings to their original state while neutralizing lingering Austin fire odors."
-          image="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80"
+          subtitle="Don't let water ruin your expensive hardwood. Our specialized sub-floor extraction and high-velocity drying systems target moisture trapped beneath your boards—preventing buckling, cupping, and mold growth with Litchfield Park precision."
+          image="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
-        <SootRemovalInfo />
+        <HardwoodDryingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

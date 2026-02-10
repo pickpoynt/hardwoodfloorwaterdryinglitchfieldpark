@@ -7,28 +7,24 @@ import {
 
 const faqs = [
   {
-    question: "Can soot really be removed from Austin limestone fireplaces?",
-    answer: "Yes. Using specialized latex cleaning films and dry extraction chemistry, we can draw soot and carbon deposits out of the porous limestone common in Austin homes without driving the particles deeper into the stone."
+    question: "Can water-damaged hardwood floors actually be saved in Litchfield Park?",
+    answer: "Yes. Using specialized Litchfield Park sub-floor extraction mats, we can often pull moisture out of the planks and subfloor before permanent warping occurs. The key is rapid response—ideally within the first 24-48 hours."
   },
   {
-    question: "What is the difference between soot and smoke damage?",
-    answer: "Smoke is the airborne byproduct, while soot is the physical carbon deposit left on surfaces. In Austin's humid climate, soot can become oily and acidic, requiring scientific neutralization to prevent it from etching into your walls and ceilings."
+    question: "What is 'cupping' and can it be reversed?",
+    answer: "Cupping happens when the bottom of the wood plank is wetter than the top, causing the edges to rise. Our directed-heat drying systems in Litchfield Park equalize moisture levels across the entire plank, pulling boards back down to their flat state."
   },
   {
-    question: "How long does the soot removal process take in Austin?",
-    answer: "Most Austin residential treatments for furnace puff-backs or minor kitchen fires take 24 to 72 hours. Serious local wildfire smoke restoration or major structure fire cleanup may require a multi-stage approach over a week."
+    question: "How long does the drying process take in the Arizona climate?",
+    answer: "While Arizona's air is dry, the moisture trapped under hardwood is insulated. Typically, our Litchfield Park drying cycles take 3 to 5 days. We use digital monitoring to ensure the 'Dry Standard' is met before equipment is removed."
   },
   {
-    question: "Do you also clean the HVAC ducts in Austin homes?",
-    answer: "Absolutely. In the Austin heat, your AC system is the primary vehicle for spreading soot throughout the property. We use HEPA-filtered vacuum systems and specialized fogging agents to decontaminate your entire ventilation network."
+    question: "Will my insurance cover hardwood floor drying in Litchfield Park?",
+    answer: "Most homeowner policies cover water damage from 'sudden and accidental' leaks. Drying floors is often significantly cheaper than replacement, making it a preferred option for insurance adjusters. We provide full digital documentation."
   },
   {
-    question: "Will the soot smell return in the Texas heat?",
-    answer: "No. Because we use molecular-level neutralizing agents that physically dismantle the carbon bonds of soot and smoke, the odor is permanently eliminated regardless of Austin's high temperatures or humidity."
-  },
-  {
-    question: "Is the soot removal process safe for my pets and family?",
-    answer: "Yes. We use hospital-grade HEPA air scrubbers and botanical-based cleaning agents that are safe for people and pets. We prioritize Austin air quality and surface safety in every restoration project."
+    question: "Is it safe to stay in my home during the drying process?",
+    answer: "Generally, yes. Our Litchfield Park equipment, including LGR dehumidifiers and HEPA air scrubbers, actually improves indoor air quality. We use botanical-based treatments that are safe for pets and children."
   }
 ];
 
@@ -38,17 +34,17 @@ const FAQ = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Austin Soot Removal FAQ
+            Litchfield Park Floor Drying FAQ
           </h2>
           <p className="text-lg text-slate-600">
-            Professional restoration expertise for Austin homeowners and property managers.
+            Professional restoration expertise for Litchfield Park homeowners and property managers.
           </p>
         </div>
 
         <Accordion type="single" collapsible className="w-full space-y-4">
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`} className="border border-slate-200 rounded-xl px-4 bg-white shadow-sm overflow-hidden">
-              <AccordionTrigger className="text-left font-heading font-bold text-slate-900 hover:text-amber-600 py-6 transition-colors font-semibold leading-relaxed">
+              <AccordionTrigger className="text-left font-heading font-bold text-slate-900 hover:text-blue-600 py-6 transition-colors font-semibold leading-relaxed">
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent className="text-slate-600 leading-relaxed pb-6">

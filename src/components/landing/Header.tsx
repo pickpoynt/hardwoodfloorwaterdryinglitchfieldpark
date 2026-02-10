@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Phone, Menu, X, Flame } from "lucide-react";
+import { Phone, Menu, X, Droplets } from "lucide-react";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -16,7 +16,7 @@ const Header = () => {
 
   const navLinks = [
     { name: "Services", href: "#services" },
-    { name: "Soot Science", href: "#soot-removal-info" },
+    { name: "Wood Drying", href: "#hardwood-drying-info" },
     { name: "FAQ", href: "#faq" },
     { name: "Contact", href: "#contact" },
   ];
@@ -30,15 +30,15 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${isScrolled ? "bg-amber-600" : "bg-white"}`}>
-              <Flame className={`w-6 h-6 ${isScrolled ? "text-white" : "text-amber-600"}`} />
+            <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${isScrolled ? "bg-blue-600" : "bg-white"}`}>
+              <Droplets className={`w-6 h-6 ${isScrolled ? "text-white" : "text-blue-600"}`} />
             </div>
             <div>
               <span className={`font-heading font-bold text-xl block leading-none ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                Austin
+                Litchfield Park
               </span>
-              <span className={`text-sm font-medium ${isScrolled ? "text-amber-600" : "text-amber-100"}`}>
-                Soot Masters
+              <span className={`text-sm font-medium ${isScrolled ? "text-blue-600" : "text-blue-100"}`}>
+                Hardwood Drying Experts
               </span>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Header = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-amber-400 ${isScrolled ? "text-slate-600" : "text-white/90"
+                className={`text-sm font-medium transition-colors hover:text-blue-400 ${isScrolled ? "text-slate-600" : "text-white/90"
                   }`}
               >
                 {link.name}
@@ -59,8 +59,8 @@ const Header = () => {
             ))}
             <Button
               className={`${isScrolled
-                ? "bg-amber-600 text-white hover:bg-amber-700"
-                : "bg-white text-amber-900 hover:bg-amber-50"
+                ? "bg-blue-600 text-white hover:bg-blue-700"
+                : "bg-white text-blue-900 hover:bg-blue-50"
                 }`}
             >
               <a href="tel:3802660944" className="flex items-center gap-2">
@@ -93,13 +93,13 @@ const Header = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-slate-600 hover:text-amber-600 transition-colors font-medium py-2 px-2"
+                  className="text-slate-600 hover:text-blue-600 transition-colors font-medium py-2 px-2"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.name}
                 </a>
               ))}
-              <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white" size="lg" asChild>
+              <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white" size="lg" asChild>
                 <a href="tel:3802660944" className="flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
                   (380) 266-0944
